@@ -1,0 +1,130 @@
+$red: #DE4B4B;
+
+.steps {
+    counter-reset: step;
+    position: absolute;
+    top: 38px;
+    right: 40px;
+    left: 40px;
+    text-align: center;
+
+    .step {
+        display: inline-block;
+        vertical-align: middle;
+        color: $red;
+        font-size: 0;
+        width: 0;
+        overflow: hidden;
+
+        &-title {
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: 700;
+            font-size: 13px;
+            color: #FFF;
+        }
+
+        &:before {
+            content: counter(step);
+            counter-increment: step;
+            background-color: transparent;
+            display: inline-block;
+            vertical-align: middle;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 5px;
+        }
+
+        i {
+            display: none;
+        }
+
+        &.active {
+            display: inline-block;
+            width: auto;
+
+            &:before {
+                color: #FFF;
+                font-weight: 700;
+                background-color: $red;
+                display: inline-block;
+            }
+
+            &:after {
+                content: ' de ';
+                display: inline-block;
+                color: #FFF;
+                font-weight: 400;
+                background-color: transparent;
+                font-size: 13px;
+                margin: 0 5px;
+                vertical-align: middle;
+            }
+        }
+
+        &:last-child {
+            display: inline-block;
+            width: auto;
+
+            &:before {
+                display: inline-block;
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 1170px) {
+    .steps {
+        top: 50px;
+        right: 64px;
+        left: auto;
+        text-align: right;
+    
+        .step {
+            font-size: 13px;
+            width: auto;
+            overflow: inherit;
+    
+            &-title {
+                display: none;
+            }
+    
+            &:before {
+                width: 22px;
+                height: 22px;
+                background-color: #FFF;
+                border: solid 1px $red;
+                color: $red;
+                border-radius: 100%;
+                text-align: center;
+                line-height: 22px;
+                font-weight: 700;
+                margin-right: 8px;
+                margin-top: -2px;
+            }
+    
+            i {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0 24px;
+                margin-top: -2px;
+            }
+    
+            &.active {
+                &:before {
+                    content: '\f00c';
+                    font-family: 'Font Awesome 5 Free';
+                    background-color: $red;
+                    border: solid 1px $red;
+                    color: #FFF;
+                }
+
+                &:after {
+                    content: none;
+                }
+            }
+        }
+    }
+}

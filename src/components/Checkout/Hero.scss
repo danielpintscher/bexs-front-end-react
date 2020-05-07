@@ -1,0 +1,86 @@
+$red: #DE4B4B;
+
+.hero {
+    height: 239px;
+    background-color: $red;
+    padding: 86px 40px 40px;
+    text-align: center;
+
+    .act-back-payment {
+        position: absolute;
+        top: 38px;
+        left: 15px;
+        font-weight: 400;
+        font-size: 0;
+        letter-spacing: -0.01px;
+        color: #FFF;
+        text-align: left;
+        cursor: pointer;
+        margin-bottom: 54px;
+
+        i {
+            display: inline-block;
+            margin: 0 14px 0 4px;
+            font-size: 20px;
+        }
+    }
+
+    .hero-title {
+        font-size: 16px;
+        color: #FFF;
+        font-weight: 700;
+        margin-bottom: 20px;
+        display: inline-block;
+
+        svg,
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        svg {
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        span {
+            text-align: left;
+            width: 165px;
+        }
+    }
+}
+
+@media (min-width: 1170px) {
+
+    .hero {
+        width: 352px;
+        height: 100%;
+        padding: 54px 0 54px 54px;
+        text-align: left;
+    
+        .act-back-payment {
+            position: relative;
+            top: 0;
+            left: 0;
+            font-size: 13px;  
+    
+            i {
+                font-size: 13px;  
+            }
+        }
+    
+        .hero-title {
+            font-size: 20px;
+            margin-bottom: 30px;
+    
+            svg {
+                height: 50px;
+                margin-right: 15px;
+            }
+    
+            span {
+                width: 207px;
+            }
+        }
+    }
+}

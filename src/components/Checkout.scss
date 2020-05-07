@@ -1,0 +1,70 @@
+@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
+@import url(//db.onlinewebfonts.com/c/236987803794b916d95e7fd41ed4fee0?family=SF+Pro+Text);
+@import url(//db.onlinewebfonts.com/c/e2e3cc5212dd8fd2fa182f01c56eea55?family=SF+Pro+Text);
+
+@font-face {font-family: "SF Pro Text"; font-weight: 400; src: url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.eot"); src: url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.woff") format("woff"), url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.svg#SF Pro Text") format("svg"); }
+@font-face {font-family: "SF Pro Text"; font-weight: 300; src: url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.eot"); src: url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.woff") format("woff"), url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.svg#SF Pro Text") format("svg"); }
+@font-face {font-family: "SF Pro Text"; font-weight: 100; src: url("//db.onlinewebfonts.com/t/e2e3cc5212dd8fd2fa182f01c56eea55.eot"); src: url("//db.onlinewebfonts.com/t/e2e3cc5212dd8fd2fa182f01c56eea55.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e2e3cc5212dd8fd2fa182f01c56eea55.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e2e3cc5212dd8fd2fa182f01c56eea55.woff") format("woff"), url("//db.onlinewebfonts.com/t/e2e3cc5212dd8fd2fa182f01c56eea55.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e2e3cc5212dd8fd2fa182f01c56eea55.svg#SF Pro Text") format("svg"); }
+
+
+$red: #DE4B4B;
+
+.checkout {
+    width: 100%;
+    background-color: #FFF;
+    font-family: Verdana;
+    letter-spacing: -0.01px;
+    text-align: left;
+    position: relative;
+
+    * {
+        box-sizing: border-box;   
+    }
+
+    button{
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    .btn {
+        padding: 16px 71px;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        display: block;
+        margin: 0 auto;
+        font-weight: 600;
+        width: 100%;
+
+        &-primary {
+            background-color: $red;
+            color: #FFF;
+        }
+    }
+}
+
+@media (min-width: 1170px) {
+    
+    .checkout {
+        width: 1024px;
+        height: 596px;
+        margin: 20px auto;
+        box-shadow: 0 3px 8px rgba(0,0,0,.5);
+        
+        .btn {
+            display: block;
+            margin: inherit;
+            margin: 0 0 0 auto;
+            width: auto;
+        }
+    }
+
+}

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="366.913" height="247.56" viewBox="0 0 366.913 247.56">
+  <defs>
+    <filter id="Retângulo_14" x="0" y="7.05" width="366.913" height="240.51" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.238" cy="0.661" r="1.189" gradientTransform="translate(0.091 0.081) scale(0.615 0.878)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bfbfbf"/>
+      <stop offset="0.337" stop-color="#a8a8a8"/>
+      <stop offset="1" stop-color="#727272"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_16" data-name="Retângulo 16" width="364.999" height="224.393" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Retângulo_17" data-name="Retângulo 17" width="365" height="224.398" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-2" cx="0.762" cy="0.661" r="1.189" gradientTransform="matrix(-0.615, 0, 0, 0.878, 1.231, 0.081)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="Grupo_13" data-name="Grupo 13" transform="translate(-1152.04 -429)">
+    <g id="Grupo_12" data-name="Grupo 12">
+      <g id="bg-card-gray" transform="translate(1016 213)">
+        <g transform="matrix(1, 0, 0, 1, 136.04, 216)" filter="url(#Retângulo_14)">
+          <rect id="Retângulo_14-2" data-name="Retângulo 14" width="330.913" height="204.51" rx="10" transform="translate(18 19.05)" fill="#fff"/>
+        </g>
+        <g id="Grupo_10" data-name="Grupo 10" transform="translate(137 216)">
+          <g id="Grupo_9" data-name="Grupo 9">
+            <rect id="Retângulo_15" data-name="Retângulo 15" width="364.999" height="224.393" rx="10" fill="url(#radial-gradient)"/>
+            <g id="Grupo_5" data-name="Grupo 5" clip-path="url(#clip-path)">
+              <g id="Grupo_4" data-name="Grupo 4" transform="translate(-198.747 19.822)" opacity="0.2">
+                <path id="Caminho_1" data-name="Caminho 1" d="M747.561,611.272c34.756-40.1,168.237-173.744,412.978-183.8,84.766-3.481,156.388,7.027,211.036,20.251" transform="translate(-747.559 -426.801)" fill="none"/>
+                <path id="Caminho_2" data-name="Caminho 2" d="M747.561,610.4c35.09-39.712,170.618-173.077,415.569-179.775a718.533,718.533,0,0,1,208.443,23.963" transform="translate(-747.559 -425.333)" fill="none"/>
+                <path id="Caminho_3" data-name="Caminho 3" d="M747.561,609.592c35.425-39.188,173.018-171.826,418.161-175.778a684.51,684.51,0,0,1,205.85,27.886" transform="translate(-747.559 -423.893)" fill="none"/>
+                <path id="Caminho_4" data-name="Caminho 4" d="M747.561,608.8c35.756-38.76,175.412-170.917,420.752-171.755a649.68,649.68,0,0,1,203.263,31.685" transform="translate(-747.559 -422.499)" fill="none"/>
+                <path id="Caminho_5" data-name="Caminho 5" d="M747.561,608.025C783.645,569.68,925.372,437.982,1170.9,440.307a617.7,617.7,0,0,1,200.675,35.475" transform="translate(-747.559 -421.139)" fill="none"/>
+                <path id="Caminho_6" data-name="Caminho 6" d="M747.56,607.278C783.967,569.332,927.775,438.07,1173.495,443.6a588.348,588.348,0,0,1,198.079,39.256" transform="translate(-747.56 -419.812)" fill="none"/>
+                <path id="Caminho_7" data-name="Caminho 7" d="M747.561,606.553c36.734-37.569,182.627-168.409,428.526-159.619a561.456,561.456,0,0,1,195.487,43.025" transform="translate(-747.559 -418.519)" fill="none"/>
+                <path id="Caminho_8" data-name="Caminho 8" d="M747.561,605.855C784.616,568.651,932.6,438.2,1178.677,450.3c77.4,3.806,142.889,24.409,192.9,46.786" transform="translate(-747.559 -417.259)" fill="none"/>
+                <path id="Caminho_9" data-name="Caminho 9" d="M747.561,605.177c37.38-36.854,187.472-166.94,433.708-151.481,76.34,4.793,140.963,26.838,190.306,50.537" transform="translate(-747.559 -416.033)" fill="none"/>
+                <path id="Caminho_10" data-name="Caminho 10" d="M747.561,604.53c37.7-36.522,189.906-166.275,436.3-147.4,75.286,5.767,139.035,29.252,187.716,54.276" transform="translate(-747.559 -414.842)" fill="none"/>
+                <path id="Caminho_11" data-name="Caminho 11" d="M747.561,603.906c38.02-36.206,192.354-165.655,438.89-143.312,74.229,6.726,137.1,31.649,185.119,58" transform="translate(-747.559 -413.683)" fill="none"/>
+                <path id="Caminho_12" data-name="Caminho 12" d="M747.561,603.307c38.34-35.9,194.817-165.083,441.481-139.215,73.176,7.675,135.173,34.038,182.531,61.718" transform="translate(-747.559 -412.559)" fill="none"/>
+                <path id="Caminho_13" data-name="Caminho 13" d="M747.561,602.736c38.66-35.618,197.291-164.563,444.073-135.11,72.124,8.608,133.246,36.41,179.942,65.426" transform="translate(-747.559 -411.468)" fill="none"/>
+                <path id="Caminho_14" data-name="Caminho 14" d="M747.561,602.192c38.977-35.348,199.784-164.1,446.663-131,71.072,9.528,131.32,38.769,177.351,69.123" transform="translate(-747.559 -410.411)" fill="none"/>
+                <path id="Caminho_15" data-name="Caminho 15" d="M747.561,601.677c39.3-35.093,202.295-163.685,449.255-126.883,70.023,10.434,129.391,41.111,174.756,72.8" transform="translate(-747.559 -409.388)" fill="none"/>
+                <path id="Caminho_16" data-name="Caminho 16" d="M747.561,601.186c39.62-34.855,204.828-163.33,451.846-122.759,68.973,11.329,127.465,43.439,172.164,76.471" transform="translate(-747.559 -408.4)" fill="none"/>
+                <path id="Caminho_17" data-name="Caminho 17" d="M747.561,600.747C787.506,566.038,955.006,437.326,1202,482.135c67.974,12.1,125.541,45.648,169.577,80.057" transform="translate(-747.559 -407.484)" fill="none"/>
+                <path id="Caminho_18" data-name="Caminho 18" d="M747.561,600.291c40.259-34.42,209.962-162.8,457.028-114.494,66.853,13.072,123.631,48.33,166.986,84.032" transform="translate(-747.559 -406.522)" fill="none"/>
+              </g>
+            </g>
+            <g id="Grupo_8" data-name="Grupo 8" transform="translate(0 0.001)">
+              <g id="Grupo_7" data-name="Grupo 7" clip-path="url(#clip-path-2)">
+                <g id="Grupo_6" data-name="Grupo 6" transform="translate(-198.747 19.822)" opacity="0.2">
+                  <path id="Caminho_19" data-name="Caminho 19" d="M747.561,411.931c34.756-40.1,168.238-173.746,412.98-183.8,84.767-3.482,156.389,7.027,211.037,20.251" transform="translate(-747.559 -227.457)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_20" data-name="Caminho 20" d="M747.561,411.062c35.09-39.711,170.618-173.079,415.57-179.777a718.481,718.481,0,0,1,208.444,23.962" transform="translate(-747.559 -225.989)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_21" data-name="Caminho 21" d="M747.561,410.252c35.425-39.189,173.019-171.83,418.162-175.783a684.5,684.5,0,0,1,205.852,27.884" transform="translate(-747.559 -224.548)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_22" data-name="Caminho 22" d="M747.561,409.458C783.317,370.7,922.974,238.536,1168.315,237.7a649.675,649.675,0,0,1,203.264,31.687" transform="translate(-747.559 -223.154)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_23" data-name="Caminho 23" d="M747.561,408.685c36.084-38.348,177.812-170.047,423.345-167.722a617.648,617.648,0,0,1,200.676,35.476" transform="translate(-747.559 -221.794)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_24" data-name="Caminho 24" d="M747.56,407.937c36.408-37.949,180.216-169.212,425.936-163.678a588.344,588.344,0,0,1,198.08,39.257" transform="translate(-747.56 -220.467)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_25" data-name="Caminho 25" d="M747.561,407.212C784.3,369.643,930.189,238.8,1176.088,247.59a561.45,561.45,0,0,1,195.488,43.026" transform="translate(-747.559 -219.174)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_26" data-name="Caminho 26" d="M747.561,406.512c37.055-37.2,185.044-167.658,431.118-155.559,77.4,3.806,142.89,24.41,192.9,46.786" transform="translate(-747.559 -217.914)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_27" data-name="Caminho 27" d="M747.561,405.836c37.38-36.855,187.472-166.943,433.71-151.484,76.34,4.793,140.964,26.838,190.307,50.538" transform="translate(-747.559 -216.688)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_28" data-name="Caminho 28" d="M747.561,405.188c37.7-36.521,189.906-166.277,436.3-147.4,75.287,5.768,139.035,29.253,187.717,54.277" transform="translate(-747.559 -215.496)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_29" data-name="Caminho 29" d="M747.561,404.564c38.02-36.2,192.355-165.657,438.892-143.315,74.23,6.726,137.1,31.652,185.12,58" transform="translate(-747.559 -214.338)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_30" data-name="Caminho 30" d="M747.561,403.966C785.9,368.059,942.378,238.88,1189.043,264.748c73.176,7.674,135.173,34.037,182.531,61.719" transform="translate(-747.559 -213.213)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_31" data-name="Caminho 31" d="M747.561,403.4c38.66-35.62,197.292-164.566,444.074-135.113,72.124,8.607,133.246,36.411,179.942,65.428" transform="translate(-747.559 -212.123)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_32" data-name="Caminho 32" d="M747.561,402.851c38.977-35.348,199.784-164.1,446.665-131,71.073,9.528,131.321,38.768,177.352,69.124" transform="translate(-747.559 -211.066)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_33" data-name="Caminho 33" d="M747.561,402.334c39.3-35.093,202.3-163.687,449.257-126.884,70.023,10.434,129.392,41.112,174.757,72.8" transform="translate(-747.559 -210.043)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_34" data-name="Caminho 34" d="M747.561,401.845c39.62-34.855,204.829-163.333,451.847-122.761,68.973,11.329,127.466,43.438,172.165,76.473" transform="translate(-747.559 -209.054)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_35" data-name="Caminho 35" d="M747.561,401.406C787.506,366.7,955.007,237.981,1202,282.791c67.974,12.1,125.542,45.649,169.577,80.059" transform="translate(-747.559 -208.138)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                  <path id="Caminho_36" data-name="Caminho 36" d="M747.561,400.949c40.26-34.421,209.963-162.8,457.03-114.5,66.853,13.072,123.631,48.331,166.987,84.034" transform="translate(-747.559 -207.176)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-width="0.6"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_11" data-name="Grupo 11" transform="translate(458 -47)">
+        <g id="bg-card-gray-verse" transform="translate(695 476)">
+          <g id="Grupo_2" data-name="Grupo 2">
+            <g id="Grupo_1" data-name="Grupo 1">
+              <rect id="Retângulo_1" data-name="Retângulo 1" width="364.999" height="224.393" rx="10" fill="url(#radial-gradient-2)"/>
+            </g>
+          </g>
+          <rect id="Retângulo_2" data-name="Retângulo 2" width="365" height="48.391" transform="translate(0 38.814)" fill="#1c1c1c"/>
+          <rect id="Retângulo_3" data-name="Retângulo 3" width="61.051" height="24.893" transform="translate(166.586 106.586)" fill="#fff"/>
+          <g id="Grupo_3" data-name="Grupo 3" transform="translate(40.721 106.586)" opacity="0.9">
+            <rect id="Retângulo_4" data-name="Retângulo 4" width="125.316" height="1.532" fill="#fff"/>
+            <rect id="Retângulo_5" data-name="Retângulo 5" width="125.316" height="1.532" transform="translate(0 2.596)" fill="#fff"/>
+            <rect id="Retângulo_6" data-name="Retângulo 6" width="125.316" height="1.532" transform="translate(0 5.191)" fill="#fff"/>
+            <rect id="Retângulo_7" data-name="Retângulo 7" width="125.316" height="1.532" transform="translate(0 7.787)" fill="#fff"/>
+            <rect id="Retângulo_8" data-name="Retângulo 8" width="125.316" height="1.532" transform="translate(0 10.383)" fill="#fff"/>
+            <rect id="Retângulo_9" data-name="Retângulo 9" width="125.316" height="1.532" transform="translate(0 12.978)" fill="#fff"/>
+            <rect id="Retângulo_10" data-name="Retângulo 10" width="125.316" height="1.532" transform="translate(0 15.574)" fill="#fff"/>
+            <rect id="Retângulo_11" data-name="Retângulo 11" width="125.316" height="1.532" transform="translate(0 18.17)" fill="#fff"/>
+            <rect id="Retângulo_12" data-name="Retângulo 12" width="125.316" height="1.532" transform="translate(0 20.765)" fill="#fff"/>
+            <rect id="Retângulo_13" data-name="Retângulo 13" width="125.316" height="1.532" transform="translate(0 23.361)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="_" data-name="***" transform="translate(1334 555)" fill="#3c3c3c" font-size="13" font-family="Verdana-Bold, Verdana" font-weight="700" letter-spacing="0.237em"><tspan x="0" y="0">***</tspan></text>
+  </g>
+</svg>

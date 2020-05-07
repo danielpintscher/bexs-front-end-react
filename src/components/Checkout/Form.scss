@@ -1,0 +1,138 @@
+$red: #DE4B4B;
+
+.form {
+    position: relative;
+    font-family: Verdana;
+    margin-top: 120px;
+    padding: 0 40px 40px;
+
+    .label {
+        width: 100%;
+        margin-bottom: 26px;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+
+        input,
+        select {
+            margin-top: 20px;
+            border: none;
+            border-bottom: solid 1px #CCC;
+            padding: 0 0 5px;
+            color: #3C3C3C;
+            font-size: 17px;
+            background-color: transparent;
+            width: 100%;
+            border-radius: 0;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0px;
+            position: relative;
+            font-weight: 300;
+            letter-spacing: 1px;
+            height: 25px;
+            position: relative;
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        input {
+            &::placeholder {
+                color: #C9C9C9;
+            }
+        }
+
+        &.-select {
+            i {
+                position: absolute;
+                top: 17px;
+                right: 0;
+                color: $red;
+            }
+        }
+
+        .form-error {
+            color: $red;
+            font-size: 13px;
+            height: 15px;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+
+        .-tip {
+            position: absolute;
+            display: block;
+            width: 13px;
+            height: 13px;
+            background-color: #C9C9C9;
+            color: #FFF;
+            font-style: italic;
+            text-align: center;
+            line-height: 13px;
+            font-size: 13px;
+            font-weight: 700;
+            top: 20px;
+            left: 54px;
+            border-radius: 100%;
+            font-family: serif;
+            cursor: pointer;
+
+            &:before {
+                content: 'i';
+            }
+        }
+
+        .placeholder {
+            color: #C9C9C9;
+            position: absolute;
+            top: 15px;
+            left: 0;
+            font-size: 17px;
+            font-weight: 300;
+            transition: all .1s ease-out;
+        }
+
+        &.-focus {
+
+            .placeholder {
+                top: 0;
+                font-size: 13px;
+                transition: all .1s ease-out;
+            }
+        }
+
+        &.-w50 {
+            width: 50%;
+            padding-right: 8px;
+
+            &.-right {
+                padding-right: 0;
+                padding-left: 8px;
+
+                .placeholder {
+                    left: 8px;
+                }
+            }
+        }
+
+        &.-error {
+
+            input,
+            select {
+                border-bottom-color: $red;
+            }
+        }
+    }
+}
+
+@media (min-width: 1170px) {
+    .form {
+        position: absolute;
+        bottom: 50px;
+        right: 64px;
+        width: 450px;
+        margin-top: 0;
+        padding: 0;
+    }
+}
