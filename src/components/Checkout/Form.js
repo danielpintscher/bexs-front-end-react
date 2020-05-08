@@ -109,8 +109,6 @@ class Form extends React.Component {
 
   callPayment() {
 
-    let headers = new Headers();
-
     fetch('http://www.mocky.io/v2/5eb4a1a50e0000f359081d0e',
       {
         method: 'POST',
@@ -123,7 +121,7 @@ class Form extends React.Component {
       })
       .then( res => res.json()
       .then(
-        (success) => { if ( success.status == '100' ) console.log('Success')}),
+        (success) => { if ( success.status === '100' ) console.log('Success')}),
         (error) => { console.log('Error' + error) }
       )
   }
