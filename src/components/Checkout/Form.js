@@ -30,7 +30,6 @@ class Form extends React.Component {
 
   inputCardNumberChange = event => {
 
-
     let value = event.target.value;
     let validator = /(^0|[a-zA-Z])/;
 
@@ -106,6 +105,27 @@ class Form extends React.Component {
         installmentSelect: true
       });
     }
+  }
+
+  callPayment() {
+
+    let headers = new Headers();
+
+    fetch('http://www.mocky.io/v2/5eb4a1a50e0000f359081d0e',
+      {
+        method: 'POST',
+        body: JSON.stringify({
+          cardNumber: this.state.inputCardNumberValue,
+          cardName: this.state.inputCardNameValue,
+          cardValidate: this.state.inputCardValidateValue,
+          cardCVV: this.state.inputCardCVVValue
+        })
+      })
+      .then( res => res.json()
+      .then(
+        (success) => { if ( success.status == '100' ) console.log('Success')}),
+        (error) => { console.log('Error' + error) }
+      )
   }
 
   render() {
@@ -190,7 +210,7 @@ class Form extends React.Component {
                 </select>
                 <div className="form-error"></div>
               </label>
-              <button onClick={(evt) => { evt.preventDefault(); }} className="btn btn-primary">CONTINUAR</button>
+              <button onClick={(evt) => { evt.preventDefault(); this.callPayment(); }} className="btn btn-primary">CONTINUAR</button>
           </form>
       </div>
     );
