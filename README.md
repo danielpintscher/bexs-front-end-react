@@ -3,9 +3,9 @@
 
 ### Teste Frontend - Daniel Pintscher Baptista
 
-**E-mail** daniel.pintscher@gmail.com
-**Celular** 11 9 6260-1113
-**Linkedin** https://www.linkedin.com/in/daniel-pintscher-baptista-ab8677116/
+**E-mail** daniel.pintscher@gmail.com 
+**Celular** 11 9 6260-1113 
+**Linkedin** https://www.linkedin.com/in/daniel-pintscher-baptista-ab8677116/ 
 
 ## APP de pagamentos
 
